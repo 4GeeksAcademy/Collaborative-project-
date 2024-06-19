@@ -44,7 +44,11 @@
   font-weight: bolder;
   
 }
-.img-fluid{
-  
+.col-lg-6{
+align-content: center;
+padding-left: 5rem;
+padding-top: 6rem;
+padding-right: 5rem;
+padding-bottom: 5rem;
 }
 
