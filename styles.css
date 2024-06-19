@@ -1,0 +1,35 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 6%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white; 
+    color: black; 
+     
+     
+    text-align: center;
+    width: 90rem;
+  
+   
+   
+}
+
+.one{
+    font-size: 3.5rem;
+}
+.two{
+    margin-top: 100px;
+    font-size: 2.5rem;
+    
+}
