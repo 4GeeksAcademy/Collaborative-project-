@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="row align-items" style="padding: 100px;">
             <div class="col-4"><img src="https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_1280.jpg"
-                    class="object-fit rounded" style="width: 300px; height: 200px;"></div>
+                    class="img-fluid"></div>
                 <div class="col-8">
                     <h2>The Second Heading is cool too</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -64,7 +64,17 @@
         <div class="row" style="padding: 100px;">
             <h1>Contact</h1>
             <p>Amet volutpat consequat mauris nunc congue. Mi quis hendrerit dolor magna eget est lorem. Ut eu sem integer vitae justo eget magna fermentum.</p>
-
+            <div class="container" style="background-color: lightgrey; padding: 30px;">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="yourmessage" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="Your Message" rows="3" placeholder="Enter your message here..."></textarea>
+                    <button type="submit" class="btn btn-primary" style="float: right;">Submit</button>
+                  </div>
+            </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
