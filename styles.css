@@ -1,0 +1,10 @@
+.secimage{
+    border-radius: 60%;
+    width: 100%;;
+}
+.col-4{
+    align-content: center;
+}
+label{
+    float: inline-end;
+}
