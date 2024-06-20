@@ -1,7 +1,19 @@
 
+.secimage{
+    border-radius: 60%;
+    width: 100%;;
+}
+.col-4{
+    align-content: center;
+}
+label{
+    float: inline-end;
+}
 
 
-.container {
+
+
+.container wrapper {
   position: relative;
   width: 50%;
 }
@@ -51,4 +63,5 @@ padding-top: 6rem;
 padding-right: 5rem;
 padding-bottom: 5rem;
 }
+
 
