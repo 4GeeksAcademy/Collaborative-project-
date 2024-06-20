@@ -13,7 +13,7 @@ label{
 
 
 
-.container wrapper {
+.wrapper {
   position: relative;
   width: 50%;
 }
@@ -29,11 +29,21 @@ label{
 
 
 
-.middle {
+.middleOne {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -222%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.middleTwo {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 34%;
   left: 50%;
   transform: translate(-50%, -222%);
   -ms-transform: translate(-50%, -50%);
@@ -44,7 +54,10 @@ label{
   opacity: 0.9;
 }
 
-.container:hover .middle {
+.container:hover .middleOne {
+  opacity: 1;
+}
+.container:hover .middleTwo {
   opacity: 1;
 }
 
@@ -52,7 +65,7 @@ label{
   background-color: white;
   color: black;
   font-size: 50px;
-  padding: 5px 19px;
+  padding: -1px 23px;
   font-weight: bolder;
   
 }
