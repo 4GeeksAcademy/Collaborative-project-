@@ -11,8 +11,6 @@ label{
 }
 
 
-
-
 .container wrapper {
   position: relative;
   width: 50%;
@@ -29,7 +27,7 @@ label{
 
 
 
-.middle {
+.middleOne {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -39,14 +37,23 @@ label{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.middleTwo {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -222%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
-.container:hover .image {
-  opacity: 0.9;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
+.container:hover .middleOne {
+    opacity: 1;
+  }
+.container:hover .middleTwo {
+    opacity: 1;
+  }
 
 .text {
   background-color: white;
